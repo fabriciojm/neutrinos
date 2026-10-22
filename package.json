@@ -1,0 +1,15 @@
+{
+  "name": "icecube-neutrinos-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "node server.cjs",
+    "check": "node --check app.js && node --check visuals.js && node --check animations.js && node --check server.cjs && node --check scripts/build.cjs",
+    "build": "node scripts/build.cjs"
+  },
+  "description": "A visual Spanish presentation about neutrinos and the IceCube observatory.",
+  "engines": {
+    "node": ">=22"
+  }
+}
